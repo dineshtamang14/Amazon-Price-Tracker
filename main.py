@@ -6,8 +6,8 @@ import math
 
 my_price = 24000
 rupee = Rupee()
-MY_EMAIL = "dineshshah960@gmail.com"
-PASSWORD = "tamang12"
+MY_EMAIL = os.environ.get("EMAIL")
+PASSWORD = os.environ.get("PASS")
 URL = "https://www.amazon.com/Realme-RMX3081-Factory-Unlocked-Infinito/dp/B093CBX4J6/ref=sr_1_3?dchild=1&keywords" \
       "=realme+8+pro&qid=1631263949&sr=8-3 "
 
